@@ -12,3 +12,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+}
