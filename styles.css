@@ -41,5 +41,18 @@ body {
 
 .cart-img {
     position: absolute;
-    top: 20px;
+    top: 18px;
+    right: 8px;
+}
+
+.num {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
