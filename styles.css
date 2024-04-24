@@ -195,6 +195,7 @@ body {
 
 .history {
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 
 .history-title {
@@ -266,4 +267,44 @@ body {
     z-index: 999;
     top: 200px;
     left: 486px;
+}
+
+.black-block {
+    background-image: url(photo/black-bg.png);
+    padding: 80px 0px;
+}
+
+.left-title {
+    font-family: "Tinos", serif;
+    color: #D67E34;
+    font-size: 52px;
+    font-weight: 400;
+    
+    margin-bottom: 20px;
+}
+
+.left-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.right-btn {
+    background-color:#FF7400;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 14px 19px;
+    font-weight: 700;
+    transition: color 0,4s linear;
+}
+
+.right-btn:hover {
+    background-color: brown;
+}
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
